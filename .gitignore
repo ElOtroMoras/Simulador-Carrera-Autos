@@ -1,2 +1,3 @@
-enunciado.pdf
-pauta.pdf
+*.pdf
+output*
+/.vscode
