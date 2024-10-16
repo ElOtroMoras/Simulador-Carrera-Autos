@@ -9,7 +9,7 @@
 - joaquin.perez2101@alumnos.ubiobio.cl
   
 ### Compilar
-Para copilar este archivo es necesario que se ejecutar en la terminal el comado "make" el cual provocara que el archivo del codigo se compile de manera automatica con el nombre "output".
+Para compilar este archivo es necesario que se ejecutar en la terminal el comado "make" el cual provocara que el archivo del codigo se compile de manera automatica con el nombre "output".
 
 *Como se muestra en la siguiente imagen:*
 
