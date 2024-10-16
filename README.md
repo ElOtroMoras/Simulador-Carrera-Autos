@@ -30,3 +30,5 @@ Donde:
 
 ### Resultados
 Al terminal la ejecucion del codigo se mostrara una tabla con el orden de llegada de todos los autos para mayor entendimiento.
+
+![{F10A606A-8699-4EE9-8C6F-EEF0CC5C9FDB}](https://github.com/user-attachments/assets/051cd821-91ff-4bee-b8aa-17320a7b4624)
