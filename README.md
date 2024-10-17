@@ -1,34 +1,44 @@
 # Simulador de Carrera de Autos
-## Seccion 2
-## Autores
-- [@Ignacio Mora Barrientos](https://github.com/ElOtroMoras) 
-- [@Joaquín Pérez Larrañaga](https://github.com/JoacoPL21)
+### Sección 2
+### Autores
+- [Ignacio Mora Barrientos](https://github.com/ElOtroMoras) 
+- [Joaquín Pérez Larrañaga](https://github.com/JoacoPL21)
 
-## Correos
+### Correos
 - ignacio.mora2001@alumnos.ubiobio.cl
 - joaquin.perez2101@alumnos.ubiobio.cl
   
-### Compilar
-Para compilar este archivo es necesario que se ejecutar en la terminal el comado "make" el cual provocara que el archivo del codigo se compile de manera automatica con el nombre "output".
+### ¿Cómo Compilar?
+Esto puede realizarse mediante el comando make, el cual, por defecto, generará dos archivos: `output`, que es el simulador, y `outputDebug`, el cual es el simulador con impresiones adicionales con el fin de controlar la salida.
 
-*Como se muestra en la siguiente imagen:*
+Además existen parámetros adicionales para el comando `make`, los cuales son:
+- **normal:** Para la compilación del archivo `output`.
+- **debug:** Para la compilación del archivo `outputDebug`.
+- **clean:** Para eliminar los archivos resultantes de la compilación.
 
-![{B1495828-20C2-43D5-9944-AC56DBD76A25}](https://github.com/user-attachments/assets/998cdbc0-5d31-454b-a0e1-55cc05842d6b)
+```
+make
+make normal
+make debug
+make clean
+```
 
 ### Ejecutar
 Al momento de ejecutar el programa es necesario que se realice de la siguiente manera:
-- ./<'output'> <'metros'> <'autos'>
+
+```
+./<output> <metros> <autos>
+```
 
 Donde:
-- Output: Nombre que tiene el archivo creado a la hora de compilar.
-- Metros: Cantidad de metros que debe de tener la carrera a simular, debe ser un numero entre **50 y 100**.
-- Autos: Cantidad de autos competidores que se desee que contenga la carrera a simular, debe ser un numero mayor o igual a **2**.
+- **output:** Nombre que tiene el archivo creado a la hora de compilar.
+- **metros:** Cantidad de metros que debe de tener la carrera a simular, debe ser un numero entre **50 y 100**.
+- **autos:** Cantidad de competidores deseados para la carrera a simular, debe ser un numero mayor o igual a **2**.
 
-*Tome esta imagen como referencia de como aplicar el codigo:*
-
-![{5AE71CC6-4C44-449D-BD36-129F0C387A92}](https://github.com/user-attachments/assets/c57fc0b7-130e-47c4-86f1-0ddf6e473937)
+```
+./output 100 6
+./outputDebug 100 6
+```
 
 ### Resultados
-Al terminal la ejecucion del codigo se mostrara una tabla con el orden de llegada de todos los autos para mayor entendimiento.
-
-![{F10A606A-8699-4EE9-8C6F-EEF0CC5C9FDB}](https://github.com/user-attachments/assets/051cd821-91ff-4bee-b8aa-17320a7b4624)
+Al momento de ejecutar el programa se mostrara una linea de tiempo de todos los competidores, y luego de eso, una tabla que contiene la posicion final de cada competidor.
