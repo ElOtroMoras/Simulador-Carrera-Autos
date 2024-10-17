@@ -18,8 +18,14 @@ Además existen parámetros adicionales para el comando `make`, los cuales son:
 
 ```
 make
+```
+```
 make normal
+```
+```
 make debug
+```
+```
 make clean
 ```
 
@@ -37,6 +43,8 @@ Donde:
 
 ```
 ./output 100 6
+```
+```
 ./outputDebug 100 6
 ```
 
